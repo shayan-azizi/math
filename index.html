@@ -4,12 +4,65 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Styles/style.css">
     <title>ریاضی</title>
 </head>
 <body>
     
-    <input type="number" id = "test">
+    <main>
 
-    <script src = "Scripts/script.js"></script>
+        <h1>
+            سلام! به بخش ریاضیِ وبسایت، خوش آمدید!
+        </h1>
+
+        <hr>
+        <br>
+
+        <div class="bmm-kmm">
+            <p class = "title">
+                محاسبه ب.م.م و ک.م.م دو عدد
+            </p>
+
+            <hr>
+
+            <input type="number" id = "number1" placeholder="عدد اول را وارد کنید...">
+            <br>
+            <input type="number" id = "number2" placeholder="عدد دوم را وارد کنید...">
+            <br>
+            <br>
+            <button class="main" id = "btn1" onclick="BMMKMM()">حساب کن!</button>
+            <p id = "b-m-m"></p>
+            <p id = "k-m-m"></p>
+        </div>
+
+        
+
+        <div class="prime">
+            <p class="title">
+                عدد اوله یا نه؟؟
+            </p>
+
+            <hr>
+
+            <input type="number" id="number3" placeholder="عدد را وارد کنید...">
+
+            <br> <br>
+            <button class="main" onclick="isPrime()">حساب کن!</button>
+
+            <p id = "prime"></p>
+        </div>
+
+    </main>
+    
+    
+    <footer class = "sticky">
+        <h2 class = "foot">
+            هیچ حق کپی رایتی محفوظ نیست! - شایان عزیزی
+        </h2>
+    </footer>
+
+
+
+    <Script src="Scripts/script.js"></Script>
 </body>
 </html>

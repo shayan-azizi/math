@@ -1,0 +1,159 @@
+/* Fonts */
+
+/* Lalezar  */
+@import url('https://v1.fontapi.ir/css/Lalezar');
+/* Lalezar */
+
+/* Vazir */
+@import url('https://v1.fontapi.ir/css/Vazir');
+/* Vazir */
+
+/* Sahel */
+@import url('https://v1.fontapi.ir/css/Sahel');
+/* Sahel */
+
+/* Fonts */
+
+body {
+    background-image: url(../Images/bk.jpg);
+    background-size: 1920px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+    position: relative;
+
+}
+body * {
+    font-family: Vazir;
+    direction: rtl;
+    text-align: right;
+
+}
+
+button {
+    text-align: center;
+    margin: auto;
+    background: rgb(14, 108, 163);
+}
+
+.main {
+    font-family: Vazir;
+    text-align: center;
+
+}
+h1 {
+    font-family: Lalezar;
+    text-align: center;
+    font-size: 35px;
+    color: rgb(255, 187, 0);
+    font-weight: normal;
+}
+
+hr {
+    margin-left: 40px;
+    margin-right: 40px;
+    background-color: aqua;
+    height: 1px;
+    border: none;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+
+.center {
+    text-align: center;
+}
+
+.bmm-kmm .title {
+    font-size: 130%;
+    font-family: sahel;
+    font-weight: bolder;
+}
+
+.bmm-kmm hr {
+    margin-left: 83%;
+    margin-right: 4px;
+    background-color: rgb(255, 187, 0);
+}
+
+.bmm-kmm input {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.prime {
+    margin-top: 50px;
+}
+
+.prime .title {
+    font-size: 130%;
+    font-family: sahel;
+    font-weight: bolder;
+}
+
+.prime hr {
+    margin-left: 83%;
+    margin-right: 4px;
+    background-color: rgb(255, 187, 0);
+}
+
+.main {
+  background-color: rgb(0, 219, 219);
+  border-radius: 100px;
+  box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+  color: rgb(2, 87, 2);
+  cursor: pointer;
+  display: inline-block;
+  font-family: Vazir;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 14px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.main:hover {
+  box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg);
+}
+
+    
+.randomstudent {
+    text-align: center;
+}
+
+/* Footrt */
+
+main {
+    flex: 1;
+}
+ 
+footer {
+    width: 100%;
+    text-align: center;
+
+}
+.foot {
+    font-size: 18px;
+    font-family: Sahel;
+    color: aqua;
+    text-align:center;
+}
+
+.sticky {
+    position: fixed; /* Here's what sticks it */
+    bottom: 0; /* to the bottom of the window */
+    margin-bottom: 7px;
+    height: 44px;
+    width: 100%;
+    padding-top: 20px;
+    color: #ffffff;
+    text-align: center;
+}
+
