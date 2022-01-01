@@ -99,6 +99,22 @@ hr {
     background-color: rgb(255, 187, 0);
 }
 
+.shomarandeh {
+    margin-top: 50px;
+}
+
+.shomarandeh .title {
+    font-size: 130%;
+    font-family: sahel;
+    font-weight: bolder;
+}
+
+.shomarandeh hr {
+    margin-left: 83%;
+    margin-right: 4px;
+    background-color: rgb(255, 187, 0);
+}
+
 .main {
   background-color: rgb(0, 219, 219);
   border-radius: 100px;

@@ -42,3 +42,22 @@ function isPrime () {
         document.getElementById("prime").innerHTML = "عدد اول نیست!";
     }
 }
+
+function Shomarandeh () {
+    let myList = [];
+    let counter = 0;
+    number = document.getElementById("number4").value;
+
+    for (let i = 0; i < number + 1; i++) {
+        if (number % i == 0) {
+            myList[counter] = i;
+            counter += 1;
+        }
+    }
+
+    document.getElementById("maghsom").innerHTML = myList;
+}
+
+
+
+
